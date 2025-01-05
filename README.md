@@ -8,8 +8,13 @@ TODO:
 - [ ]: Experience Timeline
 - [ ]: Skill section
 - [ ]: Download Resume section
+- [ ]: Project section
 - [ ]: Contact me
 - [ ]: Live github stats
 - [ ]: Live leetcode stats
 - [ ]: Auto Dark/Light Mode
 - [ ]: Acrylic Navbar
+
+Ideas:
+- [ ]: Leave a note (public)
+- [ ]: Viewers currently on site
