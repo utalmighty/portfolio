@@ -35,7 +35,7 @@ function Profile() {
   // JSX: Javascript XML
   return (
     <>
-      <div className="flex">
+      <div className="flex justify-around">
         {profileItems}
       </div>
     </>

@@ -14,7 +14,7 @@ export default function ProfileButton({
   return (
     <div>
       <img src={icon}></img>
-      <p>{message}</p>
+      <h6>{message}</h6>
       <a href={link} target="blank">
         {name}
       </a>
