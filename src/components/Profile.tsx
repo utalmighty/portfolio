@@ -3,33 +3,41 @@ import ProfileButton from "./ProfileButton";
 
 function Profile() {
   const profiles = [
-    { icon: "", page: "Github", link: "https://www.github.com/utalmighty" },
+    {
+      icon: "",
+      page: "Github",
+      message: "Follow on",
+      link: "https://www.github.com/utalmighty",
+    },
     {
       icon: "",
       page: "Leetcode",
+      message: "",
       link: "https://www.leetcode.com/u/utalmighty",
     },
     {
       icon: "",
       page: "LinkedIn",
+      message: "Connect on",
       link: "https://www.linkedin.com/in/utalmighty",
     },
   ];
 
-  const listItems = profiles.map((profile) => (
-    <li key={profile.page}>
+  const profileItems = profiles.map((profile) => (
       <ProfileButton
         icon={profile.icon}
         name={profile.page}
         link={profile.link}
+        message={profile.message}
       />
-    </li>
   ));
 
   // JSX: Javascript XML
   return (
     <>
-      <ul>{listItems}</ul>
+      <div className="flex">
+        {profileItems}
+      </div>
     </>
   );
 }
