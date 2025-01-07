@@ -13,7 +13,7 @@ TODO:
 - [ ]: Live github stats
 - [ ]: Live leetcode stats
 - [ ]: Auto Dark/Light Mode
-- [ ]: Acrylic Navbar
+- [x]: Acrylic Navbar
 
 Ideas:
 - [ ]: Leave a note (public)

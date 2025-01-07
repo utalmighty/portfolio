@@ -1,11 +1,13 @@
-import Navbar from "./Navbar";
-import Profile from "./Profile";
+import Navbar from "./components/Navbar";
+import Profile from "./components/Profile";
 
 function App() {
-  return <div>
-      <Navbar/>
-      <Profile/>
-    </div>;
+  return (
+    <div>
+      <Navbar />
+      <Profile />
+    </div>
+  );
 }
 
 export default App;
