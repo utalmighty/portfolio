@@ -1,22 +1,25 @@
 import "../index.css";
 import ProfileButton from "./ProfileButton";
+import github from "../assets/github-icon.svg"
+import leetcode from "../assets/leetcode-icon.svg"
+import linkedin from "../assets/linkedin-icon.svg"
 
 function Profile() {
   const profiles = [
     {
-      icon: "",
+      icon: github,
       page: "Github",
       message: "Follow on",
       link: "https://www.github.com/utalmighty",
     },
     {
-      icon: "",
+      icon: leetcode,
       page: "Leetcode",
       message: "",
       link: "https://www.leetcode.com/u/utalmighty",
     },
     {
-      icon: "",
+      icon: linkedin,
       page: "LinkedIn",
       message: "Connect on",
       link: "https://www.linkedin.com/in/utalmighty",
@@ -25,6 +28,7 @@ function Profile() {
 
   const profileItems = profiles.map((profile) => (
       <ProfileButton
+        key={profile.page}
         icon={profile.icon}
         name={profile.page}
         link={profile.link}
@@ -35,7 +39,7 @@ function Profile() {
   // JSX: Javascript XML
   return (
     <>
-      <div className="flex justify-around">
+      <div className="flex justify-evenly mt-10 mb-10">
         {profileItems}
       </div>
     </>
