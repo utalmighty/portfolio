@@ -1,8 +1,8 @@
 import "../index.css";
 import ProfileButton from "./ProfileButton";
-import github from "../assets/github-icon.svg"
-import leetcode from "../assets/leetcode-icon.svg"
-import linkedin from "../assets/linkedin-icon.svg"
+import github from "../assets/github-icon.svg";
+import leetcode from "../assets/leetcode-icon.svg";
+import linkedin from "../assets/linkedin-icon.svg";
 
 function Profile() {
   const profiles = [
@@ -27,20 +27,22 @@ function Profile() {
   ];
 
   const profileItems = profiles.map((profile) => (
-      <ProfileButton
-        key={profile.page}
-        icon={profile.icon}
-        name={profile.page}
-        link={profile.link}
-        message={profile.message}
-      />
+    <ProfileButton
+      key={profile.page}
+      icon={profile.icon}
+      name={profile.page}
+      link={profile.link}
+      message={profile.message}
+    />
   ));
 
   // JSX: Javascript XML
   return (
     <>
-      <div className="flex justify-evenly mt-10 mb-10">
-        {profileItems}
+      <div className="flex justify-center">
+        <div className="flex flex-col sm:flex-row justify-center">
+          {profileItems}
+        </div>
       </div>
     </>
   );
