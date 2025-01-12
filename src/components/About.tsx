@@ -6,8 +6,8 @@ export default function About() {
       <div className="m-10 text-center">
         <p>Hello, I'm</p>
         <Name/>
-        <p className="text-2xl font-bold text-slate-400">India</p>
-        <p className="text-2xl font-semibold">Full stack developer.</p>
+        <p className="text-xl sm:text-2xl sm:font-bold text-slate-400">India</p>
+        <p className="text-xl sm:text-2xl sm:font-semibold">Full stack developer</p>
       </div>
     </>
   );
