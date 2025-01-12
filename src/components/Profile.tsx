@@ -3,6 +3,7 @@ import ProfileButton from "./ProfileButton";
 import github from "../assets/github-icon.svg";
 import leetcode from "../assets/leetcode-icon.svg";
 import linkedin from "../assets/linkedin-icon.svg";
+import About from "./About";
 
 function Profile() {
   const profiles = [
@@ -39,6 +40,9 @@ function Profile() {
   // JSX: Javascript XML
   return (
     <>
+      <div className="flex justify-center">
+        <About/>
+      </div>
       <div className="flex justify-center">
         <div className="flex flex-col sm:flex-row justify-center">
           {profileItems}
