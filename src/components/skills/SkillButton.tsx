@@ -17,7 +17,7 @@ export default function SkillButton(skill: Props) {
           <a id={skill.name}>
             <div>
               <div className="padding p-2 flex h-full">
-                <img src={skill.icon} className="w-10 sm:pr-2"></img>
+                <img src={skill.icon} className="w-10 mr-4"></img>
                 <div className="flex flex-col justify-center">
                   <h1 className="font-semibold text-sm text-slate-950">
                     {skill.name}
