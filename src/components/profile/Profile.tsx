@@ -1,8 +1,8 @@
-import "../index.css";
+import "../../index.css";
 import ProfileButton from "./ProfileButton";
-import github from "../assets/github-icon.svg";
-import leetcode from "../assets/leetcode-icon.svg";
-import linkedin from "../assets/linkedin-icon.svg";
+import github from "../../assets/github-icon.svg";
+import leetcode from "../../assets/leetcode-icon.svg";
+import linkedin from "../../assets/linkedin-icon.svg";
 import About from "./About";
 
 function Profile() {
