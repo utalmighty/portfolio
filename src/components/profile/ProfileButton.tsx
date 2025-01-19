@@ -14,7 +14,7 @@ export default function ProfileButton({ icon, name, message, link }: Props) {
       <a id={name} href={link} target="blank">
         <div className="w-56 h-16 border-2 border-black rounded-lg hover:shadow-lg sm:w-40">
           <div className="padding p-2 flex h-full justify-evenly">
-            <img src={icon} className="w-10 sm:pr-2"></img>
+            <img src={icon} className="m-1"></img>
             <div className="flex flex-col justify-center">
               {messageContent}
               <h1 className="font-bold text-md text-slate-950">{name}</h1>
