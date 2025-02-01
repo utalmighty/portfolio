@@ -40,7 +40,8 @@ export default function Skills() {
   ];
 
   const skillItems = skills.map((skill) => (
-    <SkillButton
+    <SkillButton 
+      key={skill.name}
       name={skill.name}
       icon={skill.icon}
       about={skill.about}
