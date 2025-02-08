@@ -22,7 +22,7 @@ export default function Skills() {
     {
       icon: react,
       name: "React",
-      about: "Frontend Library",
+      about: "UI Library",
       yoe: 1,
     },
     {
