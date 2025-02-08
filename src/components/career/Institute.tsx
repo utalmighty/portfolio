@@ -12,13 +12,22 @@ export default function Institute(item: TimelineProp) {
     <>
     <div className="flex flex-row mt-5 mb-10">
         <div className="mt-2">
-          <img src={item.icon} className="m-1 size-14 border border-gray-400 rounded-full object-contain"></img>
+          
+          <span className="mt-1 relative flex shrink-0 overflow-hidden rounded-full size-14 border  border-gray-400 ">
+            <img src={item.icon} className="aspect-square h-full w-full bg-background object-contain"></img>
+          </span>
         </div>
         <div className="ml-10">
             <div className="text-sm text-gray-500 mb-1 md:mb-0">{item.date}</div>
+            <a href={item.link} target="_blank">
             <div className="text-xl md:text-lg font-semibold leading-none mb-1 md:mb-0">{item.name}</div>
+            </a>
             <p className="text-md md:text-sm text-gray-500 mb-1">{position}</p>
-            <div>{points}</div>
+            <div>
+              <ul className="ml-4 list-outside list-disc"> 
+              {points}
+              </ul>
+              </div>
         </div>
       </div>
     </>
