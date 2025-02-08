@@ -17,7 +17,7 @@ export default function Institute(item: TimelineProp) {
             <img src={item.icon} className="aspect-square h-full w-full bg-background object-contain"></img>
           </span>
         </div>
-        <div className="ml-10">
+        <div className="ml-5 md:ml-10 ">
             <div className="text-sm text-gray-500 mb-1 md:mb-0">{item.date}</div>
             <a href={item.link} target="_blank">
             <div className="text-xl md:text-lg font-semibold leading-none mb-1 md:mb-0">{item.name}</div>

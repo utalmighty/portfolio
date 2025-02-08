@@ -27,7 +27,7 @@ export default function Tab() {
       {
         icon: aktu,
         name: "Dr. A.P.J Abdul Kalam Technical University",
-        about: ["Lead a robotics club.", "GeeksForGeeks campus ambassador."],
+        about: ["Lead the compus' robotics club.", "GeeksForGeeks campus ambassador."],
         date: "Aug 2017 - Jul 2021",
         position: "B.Tech (IT)",
         link: "edu1 link",
@@ -143,7 +143,7 @@ export default function Tab() {
       </div>
       <div className="w-full m-3 border border-gray-300 rounded-lg bg-slate-50 shadow-sm"> {/* 👈🏼 Make this scrollable */}
         {/* <div className="h-full border-l border-gray-400 border- absolute ml-28"></div> */}
-        <div className="ml-10 sm:ml-20">
+        <div className="ml-5 sm:ml-16">
           {timeline}
         </div>
       </div>
