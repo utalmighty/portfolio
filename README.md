@@ -5,8 +5,8 @@ TODO:
 - [x] Create React App
 - [x] Profile links
 - [x] Github pages
-- [ ] Experience Timeline
-- [ ] Skill section
+- [x] Experience Timeline
+- [x] Skill section
 - [ ] Download Resume section
 - [ ] Project section
 - [ ] Contact me
