@@ -13,7 +13,7 @@ export default function Institute(item: TimelineProp) {
     <div className="flex flex-row mt-5 mb-10">
         <div className="mt-2">
           
-          <span className="mt-1 relative flex shrink-0 overflow-hidden rounded-full size-12 md:size-14 border border-gray-400 ">
+          <span className="mt-1 relative flex shrink-0 overflow-hidden rounded-full size-12 md:size-14 border border-gray-400 bg-white">
             <img src={item.icon} className="aspect-square h-full w-full bg-background object-contain"></img>
           </span>
         </div>

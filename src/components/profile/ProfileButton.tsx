@@ -7,7 +7,7 @@ interface Props {
 
 export default function ProfileButton({ icon, name, message, link }: Props) {
 
-  const messageContent = message && <h6 className="text-sm font-semibold text-slate-400">{message}</h6>
+  const messageContent = message && <span className="text-gray-400 text-sm">{message}</span>
 
   return (
     <div className="ml-5 mr-5 mt-10">
