@@ -1,6 +1,7 @@
 import Career from "./components/career/Career";
 import Navbar from "./components/navbar/Navbar";
 import Profile from "./components/profile/Profile";
+import Project from "./components/project/Project";
 import Skills from "./components/skills/Skills";
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
       <Profile />
       <Skills />
       <Career />
+      <Project />
     </div>
   );
 }
