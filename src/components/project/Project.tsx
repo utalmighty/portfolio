@@ -1,42 +1,37 @@
-export interface ProjectProp {
-  icon: string;
-  name: string;
-  about: string[];
-  date: string;
-  link: string;
-  technologies: TechnologiesProp[];
-}
+import ProjectTile, { ProjectProp } from "./ProjectTile";
 
-interface TechnologiesProp {
-  name: string;
-  icon: string;
-}
+export default function Project() {
 
-export default function Project(item: ProjectProp) {
+    const projectsData: ProjectProp[] = [
+        {
+            name: "Well Wisher",
+            icon: "icon",
+            about: ["about"],
+            date: "date",
+            links: [{link: "https://www.google.com", about: "Must be link", icon: "icon"},
+                    {link: "https://www.google.com", about: "Must be link2", icon: "icon"}
+            ],
+            technologies: [{name: "tech1", icon: "icon1"}]
+        }
+    ];
+
+    const projects = projectsData.map((project)=> (
+        <ProjectTile 
+            key={project.name + project.date}
+            icon={project.icon} 
+            name={project.name} 
+            about={project.about}
+            date={project.date}
+            links={project.links} 
+            technologies={project.technologies}/>
+    ));
+
   return (
     <>
-      <div className="w-1/4 m-1 shadow-lg">
-        <div className="bg-white border rounded-lg overflow-hidden">
-          <img className="h-48 w-full object-cover" src={item.icon} />
-          <div className="p-6">
-            <div className="flex items-baseline">
-              <span className="inline-block bg-teal-200 text-teal-800 text-xs px-2 rounded-full">
-                Live
-              </span>
-              <div className="ml-2 text-gray-600 text-xs uppercase font-semibold tracking-wider">
-                Oh hi
-              </div>
-            </div>
-            <h4 className="mt-1 font-semibold text-lg leading-tight truncate">
-              Cruel Summer
-            </h4>
-            <div className="mt-1">
-              Taylor Swift
-              <span className="text-gray-600 text-sm"> Artist</span>
-            </div>
-          </div>
-        </div>
-      </div>
+      <p className="text-center text-3xl sm:text-4xl font-semibold mt-32 mb-10">
+        PROJECTS
+      </p>
+      <div>{projects}</div>
     </>
   );
 }
