@@ -1,17 +1,23 @@
 import ProjectTile, { ProjectProp } from "./ProjectTile";
+import Wellwisher from "../../assets/project/screenshots/Wellwisher.png";
+import github from "../../assets/project/icons/github.svg"
 
 export default function Project() {
 
     const projectsData: ProjectProp[] = [
         {
             name: "Well Wisher",
-            icon: "icon",
+            icon: Wellwisher,
             about: ["about"],
             date: "date",
-            links: [{link: "https://www.google.com", about: "Must be link", icon: "icon"},
-                    {link: "https://www.google.com", about: "Must be link2", icon: "icon"}
-            ],
-            technologies: [{name: "tech1", icon: "icon1"}]
+            links: [{link: "https://www.google.com", about: "Must be link", icon: github},
+                    {link: "https://www.google.com", about: "Must be link2", icon: "icon"}],
+            technologies: [ {name: "tech1", icon: "icon1"}, 
+                            {name: "tech2", icon: "icon2"},
+                            {name: "tech3", icon: "icon1"},
+                            {name: "tech4", icon: "icon1"},
+                            {name: "tech5", icon: "icon1"},
+                            {name: "tech6", icon: "icon1"}]
         }
     ];
 
