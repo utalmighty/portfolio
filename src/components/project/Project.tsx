@@ -64,68 +64,68 @@ export default function Project() {
         { name: "Reactor Framework", icon: reactor },
       ],
     },
-    // {
-    //   name: "P2PFS",
-    //   icon: Wellwisher,
-    //   about: ["Peer to Peer file sharing without size limit."],
-    //   date: "date",
-    //   links: [
-    //     {
-    //       link: "https://github.com/utalmighty/P2PFS",
-    //       about: "Github",
-    //       icon: github,
-    //     },
-    //     {
-    //       link: "https://p2pfs-utalmighty.b4a.run/",
-    //       about: "Website",
-    //       icon: website,
-    //     },
-    //   ],
-    //   technologies: [
-    //     { name: "Java", icon: java },
-    //     { name: "JavaScript", icon: js },
-    //     { name: "Docker", icon: docker },
-    //     { name: "HTML", icon: html },
-    //     { name: "CSS", icon: css },
-    //   ],
-    // },
-    // {
-    //   name: "AC-JS",
-    //   icon: Wellwisher,
-    //   about: [
-    //     "Command line tool with powerful unix-like cat commands written in JavaScript.",
-    //   ],
-    //   date: "date",
-    //   links: [
-    //     {
-    //       link: "https://github.com/utalmighty/AC-JS",
-    //       about: "Github",
-    //       icon: github,
-    //     },
-    //   ],
-    //   technologies: [
-    //     { name: "Node", icon: node },
-    //     { name: "JS", icon: js },
-    //   ],
-    // },
-    // {
-    //   name: "Algo Viz",
-    //   icon: algoviz,
-    //   about: ["Algorithm visualization web-based interactive platform."],
-    //   date: "date",
-    //   links: [
-    //     {
-    //       link: "https://github.com/utalmighty/ALGOVIZ",
-    //       about: "Github",
-    //       icon: github,
-    //     },
-    //   ],
-    //   technologies: [
-    //     { name: "HTML", icon: html },
-    //     { name: "JavaScript", icon: js },
-    //     { name: "CSS", icon: css },
-    //   ],
-    // }
+    {
+      name: "P2PFS",
+      icon: Wellwisher,
+      about: ["Peer to Peer file sharing without size limit."],
+      date: "date",
+      links: [
+        {
+          link: "https://github.com/utalmighty/P2PFS",
+          about: "Github",
+          icon: github,
+        },
+        {
+          link: "https://p2pfs-utalmighty.b4a.run/",
+          about: "Website",
+          icon: website,
+        },
+      ],
+      technologies: [
+        { name: "Java", icon: java },
+        { name: "JavaScript", icon: js },
+        { name: "Docker", icon: docker },
+        { name: "HTML", icon: html },
+        { name: "CSS", icon: css },
+      ],
+    },
+    {
+      name: "AC-JS",
+      icon: Wellwisher,
+      about: [
+        "Command line tool with powerful unix-like cat commands written in JavaScript.",
+      ],
+      date: "date",
+      links: [
+        {
+          link: "https://github.com/utalmighty/AC-JS",
+          about: "Github",
+          icon: github,
+        },
+      ],
+      technologies: [
+        { name: "Node", icon: node },
+        { name: "JS", icon: js },
+      ],
+    },
+    {
+      name: "Algo Viz",
+      icon: algoviz,
+      about: ["Algorithm visualization web-based interactive platform."],
+      date: "date",
+      links: [
+        {
+          link: "https://github.com/utalmighty/ALGOVIZ",
+          about: "Github",
+          icon: github,
+        },
+      ],
+      technologies: [
+        { name: "HTML", icon: html },
+        { name: "JavaScript", icon: js },
+        { name: "CSS", icon: css },
+      ],
+    },
   ];
 
   const projects = projectsData.map((project) => (
@@ -142,7 +142,7 @@ export default function Project() {
 
   return (
     <>
-      <p className="text-center text-3xl sm:text-4xl font-semibold mt-32 mb-10">
+      <p className="text-center text-3xl sm:text-4xl font-semibold mt-16 mb-10">
         PROJECTS
       </p>
       <div className="flex flex-wrap md:flex-row justify-center">

@@ -7,10 +7,10 @@ import Skills from "./components/skills/Skills";
 function App() {
   return (
     <div>
-      {/* <Navbar />
+      <Navbar />
       <Profile />
       <Skills />
-      <Career /> */}
+      <Career />
       <Project />
     </div>
   );
