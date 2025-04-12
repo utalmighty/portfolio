@@ -1,9 +1,9 @@
 import SkillButton from "./SkillButton";
-import java from "../../assets/java.svg";
-import spring from "../../assets/spring.svg";
-import react from "../../assets/react.svg";
-import python from "../../assets/python.svg";
-import postgre from "../../assets/postgre.svg";
+import java from "../../assets/technologies/java.svg";
+import spring from "../../assets/technologies/spring.svg";
+import react from "../../assets/technologies/react.svg";
+import python from "../../assets/technologies/python.svg";
+import postgre from "../../assets/technologies/postgre.svg";
 
 export default function Skills() {
   const skills = [
@@ -53,11 +53,11 @@ export default function Skills() {
     <>  
       <p className="text-center text-3xl sm:text-4xl font-semibold mt-32 mb-10">SKILLS</p>
         <div className="flex mb-3">
-          <div className="w-0 md:w-1/6"></div>
+          <div className="w-0 md:w-1/6"></div> {/* left */}
           <div className="w-full md:w-4/6 flex md:flex-row flex-wrap">
             {skillItems}
           </div>
-          <div className="w-0 md:w-1/6"></div>
+          <div className="w-0 md:w-1/6"></div> {/* right */}
         </div>
     </>
   );
