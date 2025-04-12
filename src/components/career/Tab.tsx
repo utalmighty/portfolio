@@ -27,7 +27,7 @@ export default function Tab() {
       icon: aktu,
       name: "Dr. A.P.J Abdul Kalam Technical University",
       about: [
-        "Lead the compus' robotics club.",
+        "Led the campus' robotics club.",
         "GeeksForGeeks campus ambassador.",
       ],
       date: "Aug 2017 - Jul 2021",
@@ -171,9 +171,9 @@ export default function Tab() {
           Education
         </div>
       </div>
-      <div className="w-full m-3 border border-gray-300 rounded-lg bg-slate-50 shadow-sm"> {/* 👈🏼 Make this scrollable */}
-        {/* <div className="h-full border-l border-gray-400 border- absolute ml-28"></div> */}
-        <div className="ml-5 sm:ml-16">{timeline}</div>
+      <div className="relative w-full m-3 border border-gray-300 rounded-lg bg-slate-50 shadow-sm"> {/* 👈🏼 Make this scrollable */}
+          <div className="absolute left-[2.75rem] sm:left-[5.5rem] md:left-[5.7rem] lg:left-[5.75rem] top-0 bottom-0 w-[1px] bg-gray-400"></div>
+          <div className="ml-5 sm:ml-16">{timeline}</div>
       </div>
     </>
   );
