@@ -2,6 +2,9 @@ import github from "../../assets/project/icons/github.svg";
 import website from "../../assets/project/icons/website.svg";
 import algoviz from "../../assets/project/screenshots/AlgoViz.png";
 import Wellwisher from "../../assets/project/screenshots/Wellwisher.png";
+import ACJS from "../../assets/project/screenshots/ACJS.jpg";
+import P2PFS from "../../assets/project/screenshots/P2PFS.png";
+import Huduk from "../../assets/project/screenshots/Huduk.jpg";
 import css from "../../assets/technologies/css.svg";
 import docker from "../../assets/technologies/docker.svg";
 import html from "../../assets/technologies/html.svg";
@@ -48,7 +51,7 @@ export default function Project() {
     },
     {
       name: "Huduk SOS",
-      icon: Wellwisher,
+      icon: Huduk,
       about: ["Self-hosted, non-blocking Simple Object Storage."],
       date: "date",
       links: [
@@ -66,7 +69,7 @@ export default function Project() {
     },
     {
       name: "P2PFS",
-      icon: Wellwisher,
+      icon: P2PFS,
       about: ["Peer to Peer file sharing without size limit."],
       date: "date",
       links: [
@@ -91,7 +94,7 @@ export default function Project() {
     },
     {
       name: "AC-JS",
-      icon: Wellwisher,
+      icon: ACJS,
       about: [
         "Command line tool with powerful unix-like cat commands written in JavaScript.",
       ],

@@ -41,15 +41,15 @@ export default function ProjectTile(item: ProjectProp) {
 
   return (
     <>
-      <div className="m-10 w-full md:w-1/4 shadow-lg bg-white border rounded-xl">
+      <div className="m-10 w-full md:w-1/4 shadow-lg bg-white border rounded-xl flex flex-col">
         <div className="">
           <img
             className="p-2 h-48 w-full object-contain hover:scale-105 transition duration-300"
-            src={item.icon}
-          />
+            src={item.icon} />
         </div>
-        <div className="p-6 flex flex-col justify-between">
-          <div className="">
+        
+        <div className="p-6 flex flex-col flex-grow">
+          <div className="flex-grow">
             <h4 className="mt-1 font-semibold text-lg leading-tight truncate">
               {item.name}
             </h4>
