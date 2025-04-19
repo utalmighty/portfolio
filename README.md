@@ -7,8 +7,8 @@ TODO:
 - [x] Github pages
 - [x] Experience Timeline
 - [x] Skill section
-- [ ] Download Resume section
-- [ ] Project section
+- [x] Download Resume section
+- [x] Project section
 - [ ] Contact me
 - [ ] Live github stats
 - [ ] Live leetcode stats
