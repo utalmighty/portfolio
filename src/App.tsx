@@ -1,3 +1,4 @@
+import Ribbon from "./components/banner/Ribbon";
 import Career from "./components/career/Career";
 import Navbar from "./components/navbar/Navbar";
 import Profile from "./components/profile/Profile";
@@ -12,6 +13,7 @@ function App() {
       <Skills />
       <Career />
       <Project />
+      <Ribbon />
     </div>
   );
 }

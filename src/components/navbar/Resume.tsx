@@ -1,6 +1,5 @@
 import document from "../../assets/document.svg";
 
-
 export default function resume() {
   return (
     <div>
