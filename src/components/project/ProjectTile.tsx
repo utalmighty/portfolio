@@ -44,7 +44,7 @@ export default function ProjectTile(item: ProjectProp) {
       <div className="m-10 w-full md:w-1/4 shadow-lg bg-white border rounded-xl flex flex-col">
         <div className="">
           <img
-            className="p-2 h-48 w-full object-contain hover:scale-105 transition duration-300"
+            className="p-2 h-48 w-full object-contain hover:scale-105 transition duration-700"
             src={item.icon} />
         </div>
         
