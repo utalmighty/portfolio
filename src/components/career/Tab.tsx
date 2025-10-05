@@ -54,7 +54,7 @@ export default function Tab() {
       name: "Infosys",
       about: [
         "Full stack Developer working with Apple's Enginneering Team.",
-        "Migrated legacy C-based email authentication system to Java improving performance and monitoring for iCloud email.",
+        "Migrated legacy C-based email authentication system to Java improving performance and monitoring for iCloud email and compliance with latest RFC standards.",
         "Build a custom python script for load testing the scalablity of application.",
         "Improved performance by 20%, handling over 2 Billion emails a day.",
       ],
@@ -73,7 +73,7 @@ export default function Tab() {
       ],
       date: "Apr 2022 - Jan 2024",
       position: "Digital Specialist Engineer",
-      link: "exp2 link",
+      link: "https://drive.google.com/file/d/1gDL4G52MsDWQgaLXPQShamCM-0DxjTbx/view?usp=sharing",
       location: "Pune",
       specialities: [],
     },
