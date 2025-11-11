@@ -4,6 +4,7 @@ import infosys from "../../assets/infosys.jpg";
 import cognizant from "../../assets/cognizant.png";
 import aktu from "../../assets/aktu.png";
 import cms from "../../assets/cms.png";
+import citi from "../../assets/citi.svg";
 
 export interface TimelineProp {
   icon: string;
@@ -50,6 +51,16 @@ export default function Tab() {
 
   const experienceTimelineData: TimelineProp[] = [
     {
+      icon: citi,
+      name: "Citi",
+      about: ["Senior Software Engineer."],
+      date: "October 2025 - Present",
+      position: "Software Developer Engineer 2",
+      link: "https://drive.google.com/file/d/11TxhmvYH3-j9y4isykkfoZvvvgsGLbsf/view?usp=drive_link",
+      location: "Pune",
+      specialities: []
+    },
+    {
       icon: infosys,
       name: "Infosys",
       about: [
@@ -58,7 +69,7 @@ export default function Tab() {
         "Build a custom python script for load testing the scalablity of application.",
         "Improved performance by 20%, handling over 2 Billion emails a day.",
       ],
-      date: "Jul 2024 - Present",
+      date: "Jul 2024 - October 2025",
       position: "Specialist Programmer",
       link: "https://drive.google.com/file/d/1-wNoT5bjpVvbAZe6cwWdV__mJYUMrMeO/view?usp=drive_link",
       location: "Pune",
