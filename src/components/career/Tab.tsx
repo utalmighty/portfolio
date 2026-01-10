@@ -64,7 +64,7 @@ export default function Tab() {
       icon: infosys,
       name: "Infosys",
       about: [
-        "Full stack Developer working with Apple's Enginneering Team.",
+        "Full stack Developer working with Apple's Engineering Team.",
         "Migrated legacy C-based email authentication system to Java improving performance and monitoring for iCloud email and compliance with latest RFC standards.",
         "Build a custom python script for load testing the scalablity of application.",
         "Improved performance by 20%, handling over 2 Billion emails a day.",
