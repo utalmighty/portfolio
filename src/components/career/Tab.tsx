@@ -96,7 +96,7 @@ export default function Tab() {
         "Ensured bug free releases.",
       ],
       date: "Aug 2021 - Feb 2022",
-      position: "Programmer Analyst",
+      position: "Programmer Analyst Trainee",
       link: "https://drive.google.com/file/d/1WO-eZqcAs6BYVbin4glrw-SPVg5isPqe/view?usp=sharing",
       location: "Remote",
       specialities: [],
