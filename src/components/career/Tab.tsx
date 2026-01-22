@@ -53,9 +53,9 @@ export default function Tab() {
     {
       icon: citi,
       name: "Citi",
-      about: ["Senior Software Engineer."],
+      about: ["Building Data governance"],
       date: "October 2025 - Present",
-      position: "Software Developer Engineer 2",
+      position: "Senior Programmer Analyst",
       link: "https://drive.google.com/file/d/11TxhmvYH3-j9y4isykkfoZvvvgsGLbsf/view?usp=drive_link",
       location: "Pune",
       specialities: []
@@ -108,7 +108,7 @@ export default function Tab() {
         "Developed a recruitment management service using Java Springboot.",
       ],
       date: "Dec 2020 - Jun 2021",
-      position: "Intern",
+      position: "Programmer Analyst Intern",
       link: "https://drive.google.com/file/d/1PS72w36ekpN05HPQHCLMxpYqqAMI1kZf/view?usp=sharing",
       location: "Remote",
       specialities: [],
