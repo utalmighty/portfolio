@@ -109,7 +109,7 @@ export default function Tab() {
       ],
       date: "Dec 2020 - Jun 2021",
       position: "Programmer Analyst Intern",
-      link: "https://drive.google.com/file/d/1PS72w36ekpN05HPQHCLMxpYqqAMI1kZf/view?usp=sharing",
+      link: "https://drive.google.com/file/d/1CySUGU4SkIKxAxz8ar5YCPfx36mt_ww_/view?usp=sharing",
       location: "Remote",
       specialities: [],
     },
