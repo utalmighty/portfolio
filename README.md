@@ -1,5 +1,5 @@
 # Portfolio
-Visit: https://utalmighty.github.io/portfolio/
+Visit: portfolio.utalmighty.com
 
 TODO:
 - [x] Create React App
