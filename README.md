@@ -1,5 +1,5 @@
 # Portfolio
-Visit: portfolio.utalmighty.com
+Visit: https://portfolio.utalmighty.com
 
 TODO:
 - [x] Create React App
