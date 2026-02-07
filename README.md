@@ -1,5 +1,5 @@
 # Portfolio
-Visit: https://portfolio.utalmighty.com
+Visit: <a href="https://portfolio.utalmighty.com" target="_blank" rel="noopener noreferrer">https://portfolio.utalmighty.com</a>
 
 TODO:
 - [x] Create React App
